@@ -1,17 +1,16 @@
 <view class="container">
   <view class="header">
     <text class="title">教师风采</text>
+    <image class="teacher-banner" src="/assets/Weixin Image_20250612212214.jpg" mode="aspectFill"></image>
   </view>
-  
-  <view class="teacher-list">
-    <!-- 这里后续可以通过数据动态渲染教师列表 -->
-    <view class="teacher-card">
-      <image class="teacher-avatar" src="/assets/teacher-default.png" mode="aspectFill"></image>
-      <view class="teacher-info">
-        <text class="teacher-name">张老师</text>
-        <text class="teacher-title">高级教师</text>
-        <text class="teacher-desc">从事教育工作10年，专注于学生个性化培养</text>
-      </view>
-    </view>
+  <view class="achievement-list">
+    <view class="achievement-item">🏆 英国黑池美式拉丁舞职业组前十</view>
+    <view class="achievement-item">🏆 全美美式拉丁舞职业组前七</view>
+    <view class="achievement-item">💃 WDC和NDCA注册职业舞者，教师</view>
+    <view class="achievement-item">🌟 留美EB-1A杰出舞蹈人才</view>
+    <view class="achievement-item">🎓 硕士，舞蹈学本科</view>
   </view>
+  <navigator url="/pages/competition/competition" class="competition-button">
+    <text>赛场风采</text>
+  </navigator>
 </view> 

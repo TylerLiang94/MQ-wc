@@ -4,6 +4,7 @@
     "pages/teacher/teacher",
     "pages/student/student",
     "pages/course/course",
+    "pages/competition/competition",
     "pages/logs/logs"
   ],
   "window": {

@@ -2,7 +2,7 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <view class="header">
-      <text class="title">欢迎使用</text>
+      <image class="title-image" src="../../assets/Weixin Image_20250612210924.jpg" mode="aspectFit"></image>
     </view>
     
     <!-- 未登录状态显示昵称输入 -->
@@ -26,7 +26,7 @@
       
       <navigator url="/pages/student/student" class="nav-button">
         <image class="button-icon" src="/assets/student.png" mode="aspectFit"></image>
-        <text>学员风采</text>
+        <text>学员评价</text>
       </navigator>
       
       <navigator url="/pages/course/course" class="nav-button">
