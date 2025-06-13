@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <text class="title">学员风采</text>
+  </view>
+  
+  <view class="student-list">
+    <!-- 这里后续可以通过数据动态渲染学员列表 -->
+    <view class="student-card">
+      <image class="student-image" src="/assets/student-default.png" mode="aspectFill"></image>
+      <view class="student-info">
+        <text class="student-name">李同学</text>
+        <text class="student-achievement">在校期间多次获得奖学金</text>
+        <text class="student-quote">"在这里的学习让我收获颇丰"</text>
+      </view>
+    </view>
+  </view>
+</view> 

@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <text class="title">教师风采</text>
+  </view>
+  
+  <view class="teacher-list">
+    <!-- 这里后续可以通过数据动态渲染教师列表 -->
+    <view class="teacher-card">
+      <image class="teacher-avatar" src="/assets/teacher-default.png" mode="aspectFill"></image>
+      <view class="teacher-info">
+        <text class="teacher-name">张老师</text>
+        <text class="teacher-title">高级教师</text>
+        <text class="teacher-desc">从事教育工作10年，专注于学生个性化培养</text>
+      </view>
+    </view>
+  </view>
+</view> 

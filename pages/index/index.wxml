@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view class="header">
+      <text class="title">欢迎使用</text>
+    </view>
+    
+    <!-- 未登录状态显示昵称输入 -->
+    <view class="login-section" wx:if="{{!isLoggedIn}}">
+      <input class="nickname-input" 
+             type="nickname" 
+             placeholder="请输入您的昵称" 
+             bindinput="onNicknameInput"
+             bindconfirm="onNicknameConfirm"
+             bindblur="onNicknameBlur"
+             value="{{nickname}}"
+             confirm-type="done" />
+    </view>
+
+    <!-- 登录后显示按钮组 -->
+    <view class="button-group" wx:if="{{isLoggedIn}}">
+      <navigator url="/pages/teacher/teacher" class="nav-button">
+        <image class="button-icon" src="/assets/teacher.png" mode="aspectFit"></image>
+        <text>教师风采</text>
+      </navigator>
+      
+      <navigator url="/pages/student/student" class="nav-button">
+        <image class="button-icon" src="/assets/student.png" mode="aspectFit"></image>
+        <text>学员风采</text>
+      </navigator>
+      
+      <navigator url="/pages/course/course" class="nav-button">
+        <image class="button-icon" src="/assets/course.png" mode="aspectFit"></image>
+        <text>课程简介</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>

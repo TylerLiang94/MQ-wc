@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <text class="title">课程简介</text>
+  </view>
+  
+  <view class="course-list">
+    <!-- 这里后续可以通过数据动态渲染课程列表 -->
+    <view class="course-card">
+      <image class="course-image" src="/assets/course-default.png" mode="aspectFill"></image>
+      <view class="course-info">
+        <text class="course-name">个性化辅导课程</text>
+        <text class="course-duration">课程时长：12课时</text>
+        <text class="course-desc">针对学生个人特点，制定专属学习计划</text>
+      </view>
+    </view>
+  </view>
+</view> 
